@@ -61,8 +61,6 @@ changelog:
 
 release:
   footer: |
-    {{- if .repository }}
-    **Full Changelog**: {{ .repository }}/compare/{{ .PreviousTag }}...{{ .Tag }}
-    {{- end }}
     ---
     _Released with [GoReleaser](https://goreleaser.com)!_
+
