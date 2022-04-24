@@ -39,16 +39,16 @@ snapshot:
   name_template: "{{ incpatch .Version }}-next"
 changelog:
   sort: asc
-  use: github-native
-  # groups:
-  #   - title: Features
-  #     regexp: "^.*feat[(\\w)]*:+.*$"
-  #     order: 0
-  #   - title: 'Bug fixes'
-  #     regexp: "^.*fix[(\\w)]*:+.*$"
-  #     order: 1
-  #   - title: Others
-  #     order: 999
+  use: git
+  groups:
+    - title: Features
+      regexp: "^.*feat[(\\w)]*:+.*$"
+      order: 0
+    - title: 'Bug fixes'
+      regexp: "^.*fix[(\\w)]*:+.*$"
+      order: 1
+    - title: Others
+      order: 999
   filters:
     exclude:
       - '^docs:'
