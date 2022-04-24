@@ -14,5 +14,5 @@ func main() {
 
 	fmt.Printf("This is Sample app LocalVersion: %s Cmd.Version: %s MyVersion: %s\n", version, cmd.GetVersion(), cmd.MyVersion)
 	fmt.Printf("We can now print another line!")
-	fmt.Printf("We can now print another line!")
+	fmt.Printf("We can now print yet another line!")
 }
