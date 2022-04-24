@@ -1,7 +1,7 @@
 package cmd
 
 var (
-	version   = "cmdVersion"
+	version   = "0.0.0"
 	MyVersion = "myVersion"
 )
 
