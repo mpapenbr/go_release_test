@@ -13,5 +13,6 @@ var (
 func main() {
 
 	fmt.Printf("This is Sample app LocalVersion: %s Cmd.Version: %s MyVersion: %s\n", version, cmd.GetVersion(), cmd.MyVersion)
+	fmt.Println("Yes.")
 
 }
