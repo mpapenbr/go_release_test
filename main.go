@@ -16,5 +16,6 @@ func main() {
 	fmt.Printf("We can now print another line!")
 	fmt.Printf("Try again!")
 	fmt.Printf("And still another try!")
+	fmt.Printf("Here we go again")
 
 }
