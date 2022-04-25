@@ -17,4 +17,4 @@
 dist/
 
 # Other stuff
-.gitconfig.local
+.gitconfig.local*
